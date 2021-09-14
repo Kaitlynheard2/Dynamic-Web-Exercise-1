@@ -1,9 +1,9 @@
 import React from 'react';
 
 function ArticleListing() {
-    const articlesTitle = "Articles"
+    const articleTitle = "Articles"
     return (
-        <div>
+        <div className = "PageWrapper">
             <h1>{articleTitle}</h1>
         </div>
     )
