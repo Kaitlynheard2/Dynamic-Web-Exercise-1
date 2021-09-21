@@ -7,7 +7,7 @@ function ArticleCard({article}){
                 <img src = {article.image.url} alt = {article.image.alt} />
             </div>
             <div className = "ArticleCardText">
-                <h2 className = "ArticleCardTitle ArticleListingHeader">{article.title}</h2>
+                <h2 className = "ArticleCardTitle">{article.title}</h2>
                 <p className = "ArticleCardDate">{article.publishedDate}</p>
                 <p className = "ArticleCardBlurb">{article.blurb}</p>
                 <p className = "ArticleCardLink">
