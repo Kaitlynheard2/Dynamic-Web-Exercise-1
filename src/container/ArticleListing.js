@@ -7,7 +7,7 @@ function ArticleListing() {
     const articleTitle = `Articles`;
     return (
         <div className = "PageWrapper">
-            <h1 className = "HeaderOne">{articleTitle}</h1>
+            <h1 className = "HeaderOneStyle ArticleListingHeader">{articleTitle}</h1>
             {Data.map((article,key) => (
                 <ArticleCard article = {article} key = {key} />
             ))}
